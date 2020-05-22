@@ -6,6 +6,9 @@
 
 <script>
   export default {
+      data() {
+          return {}
+      },
       computed: {
           error() {
               return this.$store.getters.error
